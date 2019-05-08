@@ -28,7 +28,7 @@ int main(int argc, char const *argv[]){
   
     serverAddress.sin_family = AF_INET;
     serverAddress.sin_port = htons(PORT);
-    serverAddress.sin_addr.s_addr = inet_addr("172.16.133.14");
+    serverAddress.sin_addr.s_addr = inet_addr("127.0.0.1");
     // char ipAddress[100];
     // printf("Please input IP address: \n");
     // scanf("%s", ipAddress);
